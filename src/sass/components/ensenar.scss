@@ -44,8 +44,10 @@ div {
 .btn-evento {
     width: 140px;
     height: 50px;
-    background-color: $grisOscuro;
-    color: $blanco;
+    border: none;
+    font-size: 100%;
+    background-color: #ff5000;
+    color: #ffffff;
     text-align: center;
 }
 

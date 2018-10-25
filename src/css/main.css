@@ -34,10 +34,10 @@
   text-align: center; }
 
 #accordion .card-header {
-  background-color: #ff5000; }
+  background-color: #000000; }
 
 #accordion .active {
-  background-color: #000000;
+  background-color: #ff5000;
   color: #ffffff; }
 
 #accordion .btn-link {
@@ -64,7 +64,9 @@
   #cards, .col-5 {
     max-width: 55%;
     padding-bottom: 15%;
-    padding-left: 10%; } }
+    padding-left: 10%; }
+  .footerPages #iconsFoot {
+    padding: 10%; } }
 
 .center-align {
   text-align: center;
@@ -162,7 +164,9 @@ div .box-lugar {
 .btn-evento {
   width: 140px;
   height: 50px;
-  background-color: #3b3d41;
+  border: none;
+  font-size: 100%;
+  background-color: #ff5000;
   color: #ffffff;
   text-align: center; }
 

@@ -30,10 +30,10 @@
 }
 #accordion{
   .card-header{
-    background-color: $naranjaOscuro;
+    background-color: $negro;
   }
   .active{
-    background-color: $negro;
+    background-color: $naranjaOscuro;
     color: $blanco;
   }
   .btn-link{
@@ -66,5 +66,8 @@
   #cards, .col-5{    max-width: 55%;
   padding-bottom: 15%;
   padding-left: 10%;
+  }
+  .footerPages #iconsFoot{
+    padding: 10%;
   }
 }
