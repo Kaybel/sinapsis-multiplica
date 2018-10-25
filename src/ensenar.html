@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/mxlogo.ico">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css">
@@ -15,7 +16,7 @@
     <section class="navPriv">
         <nav class="navbar navbar">
             <a class="navbar-brand" href="#">
-                <img src="../assets/img/multiplicaLogo.png" width="30" height="30" class="d-inline-block align-top" alt=""> Sinapsis
+                <img src="../assets/img/mxlogo.png" width="30" height="30" class="d-inline-block align-top" alt=""> Sinapsis
             </a>
             <div class="dropdown">
                 <button class="btn dropdown-toggle" class="profile" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -49,14 +50,21 @@
                         <textarea class="form-control " name=" " id="textareaDescripcion" cols="50 " rows="5 "></textarea>
                         <a href=" ">Agregar descripción completa</a>
                     </div>
-                    <div class="custom-control custom-radio custom-control-inline">
-                        <input type="radio" id="radioOnline" name="customRadioInline1" value="online" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadioInline1">Online</label>
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="custom-control custom-radio">
+                              <input type="radio" id="customRadio1" value="online" name="customRadio" class="custom-control-input">
+                              <label class="custom-control-label" for="customRadio1">Online</label>
+                            </div>                            
+                        </div>
+                        <div class="col-3">
+                            <div class="custom-control custom-radio">
+                                <input type="radio" id="customRadio2" value="presencial" name="customRadio" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadio2">Presencial</label>
+                            </div>
+                        </div>
                     </div>
-                    <div class="custom-control custom-radio custom-control-inline">
-                        <input type="radio" id="radioPresencial" name="customRadioInline2" value="presencial" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadioInline2">Presencial</label>
-                    </div>
+
                     <div>
                         <label for="">Dia y hora del evento</label>
                         <input type="datetime-local" class="form-control input-cursos" id="fechas">

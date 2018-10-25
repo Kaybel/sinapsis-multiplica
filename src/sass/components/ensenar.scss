@@ -22,6 +22,7 @@ form {
     padding: 10px;
     cursor: pointer;
     border-bottom: 1px solid #d4d4d4;
+    background: gainsboro;
 }
 
 label {
@@ -59,4 +60,9 @@ div {
 
 div.custon-radio {
     margin-top: 50px;
+}
+
+#inputTemas div {
+    color: #495057;
+    background-color: #fff;
 }
