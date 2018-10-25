@@ -13,20 +13,18 @@ firebase.initializeApp(config);
 function googleLoginwithFireBase() {
 
     let provider = new firebase.auth.GoogleAuthProvider();
-    
 
     firebase.auth().signInWithPopup(provider).then(function(result) {
 
         redirectFromLogin()
     }).catch(function(e) {
         console.log(e)
-        console.log(result);
     });
 }
 
 //
 function redirectFromLogin() {
-    location.href = "src/privado.html";
+    location.href = "../privado.html";
 }
 
 function logoutWithFireBase() {

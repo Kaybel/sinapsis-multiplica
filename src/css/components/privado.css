@@ -2,15 +2,25 @@
 * {
   font-family: 'Open Sans', sans-serif; }
 
-.navPriv a {
-  color: #000000; }
+#dropdownMenuButton {
+  background-color: #ff5000;
+  color: #ffffff; }
+
+#grad {
+  background-image: linear-gradient(to right, #FF5000, #FFCD00);
+  height: 150px;
+  margin: 0%; }
+  #grad .pgrad {
+    color: #ffffff;
+    font-size: 150%;
+    text-align: center;
+    padding-top: 50px; }
 
 .quest {
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
-  margin-bottom: 5%;
-  text-align: center; }
+  margin-bottom: 5%; }
 
 #accordion .card-header {
   background-color: #000000; }
@@ -19,37 +29,32 @@
   background-color: #ff5000;
   color: #ffffff; }
 
-#accordion .btn-link {
-  color: #ffffff; }
+#accordion #collapseButtonAccordion:hover {
+  color: #000000; }
 
-#accordion .btn-link:hover {
-  color: #ffffff; }
+#accordion #quest {
+  text-align: center; }
 
 #accordion .fa, #accordion .fas {
   font-weight: 900;
-  float: right;
-  color: #ffffff; }
+  float: right; }
 
 .btn btn-link i .fas fa-angle-down {
   right: 12px;
   left: auto;
   font-size: 16px; }
-  .btn btn-link i .fas fa-angle-down .navPriv:hover a {
-    color: #000000; }
-  .btn btn-link i .fas fa-angle-down .footerPages {
-    margin-top: 5%;
-    background-color: #000000;
-    color: #ffffff;
-    padding-bottom: 60px; }
-    .btn btn-link i .fas fa-angle-down .footerPages .h4Footer {
-      color: #ff5000;
-      padding-top: 30px; }
-  .btn btn-link i .fas fa-angle-down #cards, .btn btn-link i .fas fa-angle-down .col-5 {
+
+@media (max-width: 414px) {
+  #accordion #collapseButtonAccordion {
+    font-size: 100%;
+    white-space: normal;
+    text-align: left; }
+  #cards, .col-5 {
     max-width: 55%;
     padding-bottom: 15%;
     padding-left: 10%; }
-  .btn btn-link i .fas fa-angle-down .footerPages #iconsFoot {
-    padding: 10%; }
+  .footerPages #iconsFoot {
+    padding: 10%; } }
 
 .copyFooter {
   color: #7e7e7e;
@@ -143,42 +148,145 @@ footer {
       height: 296px; }
     #quest #cards .card-footer {
       height: 150px; }
-    #quest #cards #arrow {
-      display: none; }
-    #quest #cards h1 {
-      text-align: center; }
-    #quest #cards h6 {
-      text-align: justify; }
-    #quest #cards .card:hover {
-      background-color: #000000 !important;
+    #quest #cards .navPriv a {
+      color: #000000; }
+    #quest #cards .navPriv:hover a {
+      color: #000000; }
+    #quest #cards .footerPages {
+      margin-top: 5%;
+      background-color: #000000;
       color: #ffffff;
-      width: 300px;
-      height: 447px; }
-      #quest #cards .card:hover .card-footer {
-        display: none; }
-      #quest #cards .card:hover #arrow {
-        display: block;
-        font-size: 1000%;
-        text-align: center; }
-    #quest #cards a.arrow {
-      color: #ffffff; }
-  #quest #accordion #collapseButtonAccordion {
-    color: #000000; }
-  #quest #accordion #collapseButtonAccordion:hover {
-    color: #000000; }
-  #quest #accordion #quest {
-    text-align: center; }
-  #quest #accordion .fa,
-  #quest #accordion .fas {
-    font-weight: 900;
-    float: right; }
-  #quest .btn btn-link i .fas fa-angle-down {
-    right: 12px;
-    left: auto;
-    font-size: 16px; }
-    #quest .btn btn-link i .fas fa-angle-down #acordeon .btn-link {
-      color: #000000; }
-    #quest .btn btn-link i .fas fa-angle-down #acordeon .btn-link:hover {
-      color: #000000; }
-    #quest .btn btn-link i .fas fa-angle-down #acordeon #quest {
-      text-align: center; }
+      padding-bottom: 60px; }
+      #quest #cards .footerPages .h4Footer {
+        color: #ff5000;
+        padding-top: 30px; }
+      #quest #cards .footerPages .copyFooter {
+        color: #7e7e7e;
+        text-transform: uppercase; }
+      #quest #cards .footerPages .sinap {
+        text-align: justify; }
+      #quest #cards .footerPages .iconFooterPages {
+        font-size: 200%;
+        margin-left: 5%;
+        color: #ff5000; }
+      #quest #cards .footerPages .iconFooterPages:hover {
+        color: #ffffff; }
+      #quest #cards .footerPages #iconsFoot {
+        text-align: right;
+        margin-bottom: auto;
+        margin-top: auto; }
+      #quest #cards .footerPages header {
+        margin-top: 3%; }
+        #quest #cards .footerPages header .fa,
+        #quest #cards .footerPages header .fas {
+          font-weight: 800;
+          font-size: 100%; }
+      #quest #cards .footerPages nav a {
+        color: #000000; }
+      #quest #cards .footerPages footer {
+        margin-top: 5%;
+        background-color: #000000;
+        color: #ffffff;
+        padding-bottom: 60px; }
+        #quest #cards .footerPages footer #h4 {
+          color: #ff5000;
+          padding-top: 30px; }
+        #quest #cards .footerPages footer #copy {
+          color: #7e7e7e;
+          text-transform: uppercase; }
+        #quest #cards .footerPages footer #sinap {
+          text-align: justify; }
+        #quest #cards .footerPages footer i {
+          font-size: 200%;
+          margin-left: 5%;
+          color: #ff5000; }
+        #quest #cards .footerPages footer i:hover {
+          color: #ffffff; }
+        #quest #cards .footerPages footer #icon {
+          text-align: right;
+          margin-bottom: auto;
+          margin-top: auto; }
+      #quest #cards .footerPages #grad {
+        background-image: linear-gradient(to right, #FF5000, #FFCD00);
+        height: 150px;
+        margin: 0%; }
+        #quest #cards .footerPages #grad .pgrad {
+          color: white;
+          font-size: 150%;
+          text-align: center;
+          padding-top: 50px; }
+      #quest #cards .footerPages #quest {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        margin-bottom: 5%; }
+        #quest #cards .footerPages #quest #cards {
+          margin-top: -2%; }
+          #quest #cards .footerPages #quest #cards #enseñar-aprender {
+            width: 300px; }
+          #quest #cards .footerPages #quest #cards #bodyCardPriv {
+            height: 296px; }
+          #quest #cards .footerPages #quest #cards #footerCardPriv {
+            height: 150px; }
+          #quest #cards .footerPages #quest #cards .arrow {
+            display: none; }
+          #quest #cards .footerPages #quest #cards #titleCard {
+            text-align: center; }
+          #quest #cards .footerPages #quest #cards #textCard {
+            text-align: justify; }
+          #quest #cards .footerPages #quest #cards #enseñar-aprender:hover {
+            background-color: #000000 !important;
+            color: #ffffff;
+            width: 300px;
+            height: 447px; }
+            #quest #cards .footerPages #quest #cards #enseñar-aprender:hover #footerCardPriv {
+              display: none; }
+            #quest #cards .footerPages #quest #cards #enseñar-aprender:hover .arrow {
+              display: block;
+              font-size: 1000%;
+              text-align: center; }
+            #quest #cards .footerPages #quest #cards #enseñar-aprender:hover .card {
+              width: 300px; }
+            #quest #cards .footerPages #quest #cards #enseñar-aprender:hover .card-body {
+              height: 296px; }
+            #quest #cards .footerPages #quest #cards #enseñar-aprender:hover .card-footer {
+              height: 150px; }
+            #quest #cards .footerPages #quest #cards #enseñar-aprender:hover #arrow {
+              display: none; }
+            #quest #cards .footerPages #quest #cards #enseñar-aprender:hover h1 {
+              text-align: center; }
+            #quest #cards .footerPages #quest #cards #enseñar-aprender:hover h6 {
+              text-align: justify; }
+            #quest #cards .footerPages #quest #cards #enseñar-aprender:hover .card:hover {
+              background-color: #000000 !important;
+              color: #ffffff;
+              width: 300px;
+              height: 447px; }
+              #quest #cards .footerPages #quest #cards #enseñar-aprender:hover .card:hover .card-footer {
+                display: none; }
+              #quest #cards .footerPages #quest #cards #enseñar-aprender:hover .card:hover #arrow {
+                display: block;
+                font-size: 1000%;
+                text-align: center; }
+            #quest #cards .footerPages #quest #cards #enseñar-aprender:hover a.arrow {
+              color: #ffffff; }
+          #quest #cards .footerPages #quest #cards #accordion #collapseButtonAccordion {
+            color: #000000; }
+          #quest #cards .footerPages #quest #cards #accordion #collapseButtonAccordion:hover {
+            color: #000000; }
+          #quest #cards .footerPages #quest #cards #accordion #quest {
+            text-align: center; }
+          #quest #cards .footerPages #quest #cards #accordion .fa,
+          #quest #cards .footerPages #quest #cards #accordion .fas {
+            font-weight: 900;
+            float: right; }
+          #quest #cards .footerPages #quest #cards .btn btn-link i .fas fa-angle-down {
+            right: 12px;
+            left: auto;
+            font-size: 16px; }
+            #quest #cards .footerPages #quest #cards .btn btn-link i .fas fa-angle-down #acordeon .btn-link {
+              color: #000000; }
+            #quest #cards .footerPages #quest #cards .btn btn-link i .fas fa-angle-down #acordeon .btn-link:hover {
+              color: #000000; }
+            #quest #cards .footerPages #quest #cards .btn btn-link i .fas fa-angle-down #acordeon #quest {
+              text-align: center; }

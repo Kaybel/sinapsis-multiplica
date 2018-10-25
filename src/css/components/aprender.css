@@ -9,6 +9,31 @@ header .fas {
   font-weight: 800;
   font-size: 100%; }
 
+footer {
+  position: absolute;
+  bottom: 0%; }
+
+footer #sinap {
+  text-align: justify; }
+
+footer i {
+  font-size: 200%;
+  margin-left: 5%; }
+
+#grad {
+  background-image: linear-gradient(to right, #ff5000, #FFCD00);
+  width: 100vw;
+  height: 150px; }
+
+#grad #pgrad {
+  color: #ffffff;
+  margin-top: 3%;
+  font-size: 150%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto; }
+
 #cursos-all {
   color: #ffffff;
   background-color: #ff5000;

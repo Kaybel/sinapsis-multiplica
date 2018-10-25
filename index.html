@@ -5,11 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/mxlogo.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/multiplicaLogo.png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="./src/css/main.css">
-
     <title>Sinapsis</title>
 </head>
 
@@ -17,14 +16,16 @@
     <section>
         <nav class="navbar navbar-light bg-light">
             <a class="navbar-brand" href="#">
-                <img src="./assets/img/mxlogo.png" width="30" height="30" class="d-inline-block align-top" alt=""> Sinapsis
-
+                <img src="./assets/img/multiplicaLogo.png" width="30" height="30" class="d-inline-block align-top" alt=""> Sinapsis
             </a>
-            <button id="dropdownMenuButton" onclick="googleLoginwithFireBase()">Ingresa</button>
+            <button id="signInBtn" onclick="googleLoginwithFireBase()">Ingresa</button>
         </nav>
     </section>
 
+
+
     <section>
+
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -33,15 +34,13 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-
-                    <img class="d-block w-100" src="./assets/img/slide1.png" width="600" height="400" alt="First slide">
+                    <img class="d-block w-100" src="./assets/img/slide1.jpeg" width="600" height="400" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="./assets/img/slide2.png" width="600" height="400" alt="Second slide">
+                    <img class="d-block w-100" src="./assets/img/slide2.jpeg" width="600" height="400" alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="./assets/img/slide3.png" width="600" height="400" alt="Third slide">
-
+                    <img class="d-block w-100" src="./assets/img/slide3.jpeg" width="600" height="400" alt="Third slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -62,25 +61,22 @@
             <div class="card center-align">
                 <div class="card-group">
                     <div class="card">
-                        <img class="icono " src="./assets/img/fixed/icon2.png" heigth="100px" width="100px" alt="Card image cap">
-
+                        <img class="icono " src="../assets/img/fixed/icon2.png" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Comparte Todo lo que sabes</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         </div>
                     </div>
                     <div class="card">
-
-                        <img class="icono center-align" src="./assets/img/fixed/icon1.png" heigth="100px" width="100px" alt="Card image cap">
-
-                                            <div class="card-body">
+                        <img class="icono center-align" src="../assets/img/fixed/icon1.png" alt="Card image cap">
+                        <div class="card-body">
                             <h5 class="card-title">Adquiere nuevos conocimientos</h5>
                             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
 
                         </div>
                     </div>
                     <div class="card">
-                        <img class="icono center-align" src="./assets/img/fixed/icon3.png" height="100" alt="Card image cap">
+                        <img class="icono center-align" src="../assets/img/fixed/icon3.png" height="100" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Conoce a tus pares en el mundo</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
@@ -102,7 +98,6 @@
         <div class="container">
             <div class="row ">
                 <div class="col-12 col-lg-6 pantallazo">
-
                     <img src="./assets/img/pantallazo.jpeg" class="img-fluid" max-width="500px" alt="Responsive image">
                 </div>
                 <div class="col-12 col-lg-4 textoPantallazo">
@@ -134,7 +129,6 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quo eaque ipsum enim laborum nihil nam numquam corrupti ducimus praesentium.</p>
                 </div>
             </div>
-
         </div>
     </section>
 
@@ -163,7 +157,6 @@
                             <i class="fab fa-youtube"></i>
                         </a>
                     </div>
-
                 </div>
                 <div class="copyFooter">
                     <p class="col-12">© 2018 Multiplica Chile</p>
@@ -176,9 +169,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
     <script src="./src/js/auth.js"></script>
-
 </body>
 
 </html>

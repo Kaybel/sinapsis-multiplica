@@ -2,7 +2,7 @@
 
 #cards {
   margin-top: -2%;
-    #ensenar-aprender{
+    #enseñar-aprender{
       width: 300px;
     }
     #bodyCardPriv{
@@ -17,8 +17,10 @@
     #titleCard{
       text-align: center;      
     }
-  
-    #ensenar-aprender:hover{
+    #textCard{
+      text-align: justify;
+    }
+    #enseñar-aprender:hover{
       background-color: $negro !important;
       color: $blanco;
       width: 300px;

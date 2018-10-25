@@ -1,3 +1,27 @@
+.footerPages {
+  margin-top: 5%;
+  background-color: #000000;
+  color: #ffffff;
+  padding-bottom: 60px; }
+  .footerPages .h4Footer {
+    color: #ff5000;
+    padding-top: 30px; }
+  .footerPages .copyFooter {
+    color: #7e7e7e;
+    text-transform: uppercase; }
+  .footerPages .sinap {
+    text-align: justify; }
+  .footerPages .iconFooterPages {
+    font-size: 200%;
+    margin-left: 5%;
+    color: #ff5000; }
+  .footerPages .iconFooterPages:hover {
+    color: #ffffff; }
+  .footerPages #iconsFoot {
+    text-align: right;
+    margin-bottom: auto;
+    margin-top: auto; }
+
 .center-align {
   text-align: center;
   margin-bottom: 4em; }

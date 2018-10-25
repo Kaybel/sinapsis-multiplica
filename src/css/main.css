@@ -1,14 +1,17 @@
 @charset "UTF-8";
 .carousel-indicators li {
-  width: 10px;
-  height: 10px;
-  border-radius: 100%; }
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
 
 .navPriv a {
-  color: #000000; }
+    color: #000000;
+}
 
 .navPriv:hover a {
-  color: #000000; }
+    color: #000000;
+}
 
 * {
   font-family: 'Open Sans', sans-serif; }
@@ -30,16 +33,21 @@
   background-color: #ff5000;
   color: #ffffff; }
 
-#accordion .btn-link {
-  color: #ffffff; }
+header .fa,
+header .fas {
+    font-weight: 800;
+    font-size: 100%;
+}
 
-#accordion .btn-link:hover {
-  color: #ffffff; }
+#accordion #quest {
+    text-align: center;
+}
 
-#accordion .fa, #accordion .fas {
-  font-weight: 900;
-  float: right;
-  color: #ffffff; }
+#accordion .fa,
+#accordion .fas {
+    font-weight: 900;
+    float: right;
+}
 
 .btn btn-link i .fas fa-angle-down {
   right: 12px;
@@ -195,98 +203,157 @@ footer {
       text-align: center; }
 
 .center-align {
-  text-align: center;
-  margin-bottom: 4em; }
+    text-align: center;
+    margin-bottom: 4em;
+}
 
 .card-group-home {
-  margin-top: 2em;
-  margin-bottom: 4em;
-  padding-top: 1em; }
-  .card-group-home .card {
+    margin-top: 2em;
+    margin-bottom: 4em;
+    padding-top: 1em;
+}
+
+.card-group-home .card {
     text-align: center;
-    padding-top: 1em; }
-    .card-group-home .card .icono {
-      margin: 0 auto; }
+    padding-top: 1em;
+}
+
+.card-group-home .card .icono {
+    margin: 0 auto;
+}
 
 .pantallazo {
-  margin-bottom: 4em; }
+    margin-bottom: 4em;
+}
 
 .startBtn {
-  height: 3em;
-  width: 15em;
-  background-color: #3B3D41;
-  color: white;
-  margin-top: 2em; }
+    height: 3em;
+    width: 15em;
+    background-color: #3B3D41;
+    color: white;
+    margin-top: 2em;
+}
 
 .subtituloColaborar {
-  font-weight: 700;
-  padding-bottom: 1em;
-  padding-top: 1em;
-  margin-bottom: 0; }
+    font-weight: 700;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    margin-bottom: 0;
+}
 
 .textoPantallazo {
-  margin-bottom: 1em; }
+    margin-bottom: 1em;
+}
 
 .beneficiosBtn {
-  height: 50px;
-  width: 207px;
-  margin-bottom: 4em;
-  border-radius: 3px;
-  border-color: #C2C2C2;
-  background-color: #F6F6F6;
-  justify-content: center;
-  margin-top: 1em; }
+    height: 50px;
+    width: 207px;
+    margin-bottom: 4em;
+    border-radius: 3px;
+    border-color: #C2C2C2;
+    background-color: #F6F6F6;
+    justify-content: center;
+    margin-top: 1em;
+}
 
 .queEs {
-  padding-top: 2em;
-  padding-bottom: 1em;
-  text-align: center; }
+    padding-top: 2em;
+    padding-bottom: 1em;
+    text-align: center;
+}
 
 .tituloTalleres {
-  margin-bottom: 3em; }
+    margin-bottom: 3em;
+}
 
 .cursosProgramados {
-  border-right: 1px solid #7E7E7E; }
+    border-right: 1px solid #7E7E7E;
+}
 
 .footer-box {
-  display: flex;
-  margin-bottom: 4em; }
+    display: flex;
+    margin-bottom: 4em;
+}
 
 .cajaTituloCursos {
-  text-align: center; }
+    text-align: center;
+}
 
 .tituloCursos {
-  text-align: center; }
+    text-align: center;
+}
+
+.footerPages {
+    margin-top: 5%;
+    background-color: #000000;
+    color: #ffffff;
+    padding-bottom: 60px;
+}
+
+.footerPages .h4Footer {
+    color: #ff5000;
+    padding-top: 30px;
+}
+
+.footerPages .copyFooter {
+    color: #7e7e7e;
+    text-transform: uppercase;
+}
+
+.footerPages .sinap {
+    text-align: justify;
+}
+
+.footerPages .iconFooterPages {
+    font-size: 200%;
+    margin-left: 5%;
+    color: #ff5000;
+}
+
+.footerPages .iconFooterPages:hover {
+    color: #ffffff;
+}
+
+.footerPages #iconsFoot {
+    text-align: right;
+    margin-bottom: auto;
+    margin-top: auto;
+}
 
 form .autocomplete {
-  /*the container must be positioned relative:*/
-  position: relative; }
+    /*the container must be positioned relative:*/
+    position: relative;
+}
 
 .autocomplete-items {
-  position: absolute;
-  border: 1px solid #d4d4d4;
-  border-bottom: none;
-  border-top: none;
-  z-index: 99;
-  /*position the autocomplete items to be the same width as the container:*/
-  top: 100%;
-  left: 0;
-  right: 0; }
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    /*position the autocomplete items to be the same width as the container:*/
+    top: 100%;
+    left: 0;
+    right: 0;
+}
 
 .autocomplete-items div {
-  padding: 10px;
-  cursor: pointer;
-  border-bottom: 1px solid #d4d4d4;
-  background: gainsboro; }
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #d4d4d4;
+}
 
 label {
-  margin-top: 20px; }
+    margin-top: 20px;
+}
 
 div .input-cursos {
-  height: 50px; }
+    height: 50px;
+}
 
 div .box-lugar {
-  margin-bottom: 20px; }
+    margin-bottom: 20px;
+}
 
 .btn-evento {
   width: 140px;
@@ -298,8 +365,9 @@ div .box-lugar {
   text-align: center; }
 
 div .box-evento {
-  text-align: center;
-  margin-top: 50px; }
+    text-align: center;
+    margin-top: 50px;
+}
 
 div.custon-radio {
   margin-top: 50px; }
@@ -309,33 +377,37 @@ div.custon-radio {
   background-color: #fff; }
 
 div .tarjetaExito {
-  margin-top: 4em;
-  margin-bottom: 4em;
-  text-align: center; }
+    margin-top: 4em;
+    margin-bottom: 4em;
+    text-align: center;
+}
 
 .footerPages {
-  margin-top: 5%;
-  background-color: #000000;
-  color: #ffffff;
-  padding-bottom: 60px; }
-  .footerPages .h4Footer {
+    margin-top: 5%;
+    background-color: #000000;
+    color: #ffffff;
+    padding-bottom: 60px;
+}
+
+.footerPages .h4Footer {
     color: #ff5000;
-    padding-top: 30px; }
-  .footerPages .copyFooter {
+    padding-top: 30px;
+}
+
+.footerPages .copyFooter {
     color: #7e7e7e;
-    text-transform: uppercase; }
-  .footerPages .sinap {
-    text-align: justify; }
-  .footerPages .iconFooterPages {
+    text-transform: uppercase;
+}
+
+.footerPages .sinap {
+    text-align: justify;
+}
+
+.footerPages .iconFooterPages {
     font-size: 200%;
     margin-left: 5%;
-    color: #ff5000; }
-  .footerPages .iconFooterPages:hover {
-    color: #ffffff; }
-  .footerPages #iconsFoot {
-    text-align: right;
-    margin-bottom: auto;
-    margin-top: auto; }
+    color: #ff5000;
+}
 
 #cards {
   margin-top: -2%; }
@@ -368,20 +440,21 @@ div .tarjetaExito {
   margin-bottom: 3%;
   margin-left: 38%; }
 
-@media (max-width: 414px) {
-  #proyectos {
-    margin-left: 3%; } }
+#cards #bodyCardPriv {
+    height: 296px;
+}
 
-* .row {
-  width: 100vw; }
+#cards #footerCardPriv {
+    height: 150px;
+}
 
-header {
-  margin-top: 3%; }
+#cards .arrow {
+    display: none;
+}
 
-header .fa,
-header .fas {
-  font-weight: 800;
-  font-size: 100%; }
+#cards #titleCard {
+    text-align: center;
+}
 
 #cursos-all {
   color: #ffffff;

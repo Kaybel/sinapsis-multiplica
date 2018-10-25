@@ -1,6 +1,7 @@
+@charset "UTF-8";
 #cards {
   margin-top: -2%; }
-  #cards #ensenar-aprender {
+  #cards #enseñar-aprender {
     width: 300px; }
   #cards #bodyCardPriv {
     height: 296px; }
@@ -10,14 +11,16 @@
     display: none; }
   #cards #titleCard {
     text-align: center; }
-  #cards #ensenar-aprender:hover {
+  #cards #textCard {
+    text-align: justify; }
+  #cards #enseñar-aprender:hover {
     background-color: #000000 !important;
     color: #ffffff;
     width: 300px;
     height: 447px; }
-    #cards #ensenar-aprender:hover #footerCardPriv {
+    #cards #enseñar-aprender:hover #footerCardPriv {
       display: none; }
-    #cards #ensenar-aprender:hover .arrow {
+    #cards #enseñar-aprender:hover .arrow {
       display: block;
       font-size: 1000%;
       text-align: center; }

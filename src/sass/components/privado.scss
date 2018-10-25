@@ -1,11 +1,23 @@
 @import 'var';
+
 * {
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.navPriv {
-    a {
-        color: $negro;
+#dropdownMenuButton{
+  background-color: $naranjaOscuro;
+  color: $blanco
+}
+
+#grad {
+    background-image: linear-gradient(to right, #FF5000, #FFCD00);
+    height: 150px;
+    margin: 0%;
+    .pgrad {
+        color: $blanco;
+        font-size: 150%;
+        text-align: center;
+        padding-top: 50px;
     }
 }
 
@@ -14,8 +26,8 @@
   margin-right: auto;
   margin-top: 5%;
   margin-bottom: 5%;
-  text-align: center;
 }
+
 #accordion{
   .card-header{
     background-color: $negro;
@@ -24,16 +36,15 @@
     background-color: $naranjaOscuro;
     color: $blanco;
   }
-  .btn-link{
-  color: $blanco;
+  #collapseButtonAccordion:hover{
+    color: $negro;
   }
-  .btn-link:hover{
-  color: $blanco;
+  #quest{
+    text-align: center;
   }
   .fa, .fas {
     font-weight: 900;
     float: right;
-    color: $blanco;
   }
 }
 
@@ -41,21 +52,14 @@
 	right: 12px;
 	left: auto;
 	font-size: 16px;
-.navPriv:hover {
-    a {
-        color: $negro;
-    }
-
 }
 
-.footerPages {
-    margin-top: 5%;
-    background-color: $negro;
-    color: $blanco;
-    padding-bottom: 60px;
-    .h4Footer {
-        color: #ff5000;
-        padding-top: 30px;
+@media(max-width: 414px){
+  #accordion{
+    #collapseButtonAccordion{
+      font-size: 100%;
+      white-space: normal;
+      text-align: left;
     }
   }
   #cards, .col-5{    max-width: 55%;
@@ -178,63 +182,209 @@
                 .card-footer {
                     height: 150px;
                 }
-                #arrow {
-                    display: none;
-                }
-                h1 {
-                    text-align: center;
-                }
-                h6 {
-                    text-align: justify;
-                }
-                .card:hover {
-                    background-color: $negro !important;
-                    color: $blanco;
-                    width: 300px;
-                    height: 447px;
-                    .card-footer {
-                        display: none;
-                    }
-                    #arrow {
-                        display: block;
-                        font-size: 1000%;
-                        text-align: center;
-                    }
-                }
-                a.arrow {
-                    color: $blanco;
-                }
-            }
-            #accordion {
-                #collapseButtonAccordion {
-                    color: $negro;
-                }
-                #collapseButtonAccordion:hover {
-                    color: $negro;
-                }
-                #quest {
-                    text-align: center;
-                }
-                .fa,
-                .fas {
-                    font-weight: 900;
-                    float: right;
-                }
-            }
-            .btn btn-link i .fas fa-angle-down {
-                right: 12px;
-                left: auto;
-                font-size: 16px;
-                #acordeon {
-                    .btn-link {
+                
+                .navPriv {
+                    a {
                         color: $negro;
                     }
-                    .btn-link:hover {
+                }
+                
+                .navPriv:hover {
+                    a {
                         color: $negro;
+                    }
+                }
+                
+                .footerPages {
+                    margin-top: 5%;
+                    background-color: $negro;
+                    color: $blanco;
+                    padding-bottom: 60px;
+                    .h4Footer {
+                        color: #ff5000;
+                        padding-top: 30px;
+                    }
+                    .copyFooter {
+                        color: #7e7e7e;
+                        text-transform: uppercase;
+                    }
+                    .sinap {
+                        text-align: justify;
+                    }
+                    .iconFooterPages {
+                        font-size: 200%;
+                        margin-left: 5%;
+                        color: $naranjaOscuro;
+                    }
+                    .iconFooterPages:hover {
+                        color: $blanco;
+                    }
+                    #iconsFoot {
+                        text-align: right;
+                        margin-bottom: auto;
+                        margin-top: auto;
+                    }
+                    header {
+                        margin-top: 3%;
+                        .fa,
+                        .fas {
+                            font-weight: 800;
+                            font-size: 100%;
+                        }
+                    }
+                    nav {
+                        a {
+                            color: $negro;
+                        }
+                    }
+                    footer {
+                        margin-top: 5%;
+                        background-color: $negro;
+                        color: $blanco;
+                        padding-bottom: 60px;
+                        #h4 {
+                            color: #ff5000;
+                            padding-top: 30px;
+                        }
+                        #copy {
+                            color: #7e7e7e;
+                            text-transform: uppercase;
+                        }
+                        #sinap {
+                            text-align: justify;
+                        }
+                        i {
+                            font-size: 200%;
+                            margin-left: 5%;
+                            color: $naranjaOscuro;
+                        }
+                        i:hover {
+                            color: $blanco;
+                        }
+                        #icon {
+                            text-align: right;
+                            margin-bottom: auto;
+                            margin-top: auto;
+                        }
+                    }
+                    #grad {
+                        background-image: linear-gradient(to right, #FF5000, #FFCD00);
+                        height: 150px;
+                        margin: 0%;
+                        .pgrad {
+                            color: white;
+                            font-size: 150%;
+                            text-align: center;
+                            padding-top: 50px;
+                        }
                     }
                     #quest {
-                        text-align: center;
+                        margin-left: auto;
+                        margin-right: auto;
+                        margin-top: 5%;
+                        margin-bottom: 5%;
+                        #cards {
+                            margin-top: -2%;
+                            #enseñar-aprender {
+                                width: 300px;
+                            }
+                            #bodyCardPriv {
+                                height: 296px;
+                            }
+                            #footerCardPriv {
+                                height: 150px;
+                            }
+                            .arrow {
+                                display: none;
+                            }
+                            #titleCard {
+                                text-align: center;
+                            }
+                            #textCard {
+                                text-align: justify;
+                            }
+                            #enseñar-aprender:hover {
+                                background-color: $negro !important;
+                                color: $blanco;
+                                width: 300px;
+                                height: 447px;
+                                #footerCardPriv {
+                                    display: none;
+                                }
+                                .arrow {
+                                    display: block;
+                                    font-size: 1000%;
+                                    text-align: center;
+                                }
+                                .card {
+                                    width: 300px;
+                                }
+                                .card-body {
+                                    height: 296px;
+                                }
+                                .card-footer {
+                                    height: 150px;
+                                }
+                                #arrow {
+                                    display: none;
+                                }
+                                h1 {
+                                    text-align: center;
+                                }
+                                h6 {
+                                    text-align: justify;
+                                }
+                                .card:hover {
+                                    background-color: $negro !important;
+                                    color: $blanco;
+                                    width: 300px;
+                                    height: 447px;
+                                    .card-footer {
+                                        display: none;
+                                    }
+                                    #arrow {
+                                        display: block;
+                                        font-size: 1000%;
+                                        text-align: center;
+                                    }
+                                }
+                                a.arrow {
+                                    color: $blanco;
+                                }
+                            }
+                            #accordion {
+                                #collapseButtonAccordion {
+                                    color: $negro;
+                                }
+                                #collapseButtonAccordion:hover {
+                                    color: $negro;
+                                }
+                                #quest {
+                                    text-align: center;
+                                }
+                                .fa,
+                                .fas {
+                                    font-weight: 900;
+                                    float: right;
+                                }
+                            }
+                            .btn btn-link i .fas fa-angle-down {
+                                right: 12px;
+                                left: auto;
+                                font-size: 16px;
+                                #acordeon {
+                                    .btn-link {
+                                        color: $negro;
+                                    }
+                                    .btn-link:hover {
+                                        color: $negro;
+                                    }
+                                    #quest {
+                                        text-align: center;
+                                    }
+                                }
+                            }
+                        }
                     }
-
                 }
               }}
