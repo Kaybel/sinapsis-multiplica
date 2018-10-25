@@ -137,7 +137,7 @@ getData(cities).then(response => {
 // firebase.initializeApp(config);
 
 function guardarCursos() {
-    debugger
+
     const tema = document.getElementById('inputTemas').value
     const titulo = document.getElementById('inputTaller').value
     const descripcion = document.getElementById('textareaDescripcion').value
