@@ -240,3 +240,55 @@ div .tarjetaExito {
 @media (max-width: 414px) {
   #proyectos {
     margin-left: 3%; } }
+
+* .row {
+  width: 100vw; }
+
+header {
+  margin-top: 3%; }
+
+header .fa,
+header .fas {
+  font-weight: 800;
+  font-size: 100%; }
+
+#cursos-all {
+  color: #ffffff;
+  background-color: #ff5000;
+  border-radius: 4px;
+  border: 1px solid #ff5000;
+  border-bottom-width: thin; }
+
+#cursos-all:hover {
+  background-color: #cf400d;
+  border: 1px solid #cf400d; }
+
+.small-btn {
+  border: 1px solid #7e7e7e;
+  color: #ff5000;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border-bottom-width: thin; }
+
+.small-btn:hover {
+  border: 1px solid #ff5000; }
+
+.dropdown-toggle {
+  color: #ffffff;
+  background-color: #ff5000;
+  border-radius: 4px;
+  border: 1px solid #ff5000; }
+
+.dropdown-toggle:hover {
+  background-color: #b43306;
+  border: 1px solid #b43306; }
+
+.btn-outline-success {
+  color: #ff5000;
+  background-color: #ffffff;
+  border: 1px solid #ff5000; }
+
+.btn-outline-succes:hover:focus {
+  color: #ffffff !important;
+  background-color: #b43306 !important;
+  border: 1px solid #b43306 !important; }
